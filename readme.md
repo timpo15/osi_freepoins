@@ -24,8 +24,8 @@ python logger.py - будет раз в секунду писать в файл 
 надо в ~/.config/systemd/user скопировать файл my_logger.service
 потом выполнить команду:
 
-    ```systemctl --user start my_logger```
+    systemctl --user start my_logger
     
 посмотреть состояние демона можно командой:
 
-    ```systemctl --user status my_logger```
+    systemctl --user status my_logger
