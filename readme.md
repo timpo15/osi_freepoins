@@ -8,16 +8,16 @@ python logger.py - будет раз в секунду писать в файл 
 ``` chmod +x <name_of_script>```
 
 ### 1
-./countRequest <name_of_file>
+    ./countRequest <name_of_file>
 
 ### 2 
-./topUsers <name_of_file>
+    ./topUsers <name_of_file>
 
 ### 3
-./topLongest <name_of_file> <count>
+    ./topLongest <name_of_file> <count_to_show>
 
 ### 4
-./allErrors <name_of_file>
+    ./allErrors <name_of_file>
 
 ## task 3 
 
