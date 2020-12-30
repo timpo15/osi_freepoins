@@ -31,13 +31,13 @@ python logger.py - будет раз в секунду писать в файл 
 
 ## task 4
 
-docker pull timpo14/logger_task:first
+    docker pull timpo14/logger_task:first
 
-docker run -d -v /sys/fs/cgroup/:/sys/fs/cgroup:ro --cap-add SYS_ADMIN <docker_image_from_previous_step>
+    docker run -d -v /sys/fs/cgroup/:/sys/fs/cgroup:ro --cap-add SYS_ADMIN <docker_image_from_previous_step>
 
 Я так и не смог научить его сразу запускать демон, поэтому нужен еще 1 шаг
 
-docker exe -it <container> bash
+    docker exe -it <container> bash
 
-systemctl start my_logger
+    systemctl start my_logger
 
