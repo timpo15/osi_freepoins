@@ -37,7 +37,7 @@ python logger.py - будет раз в секунду писать в файл 
 
 Я так и не смог научить его сразу запускать демон, поэтому нужен еще 1 шаг
 
-    docker exe -it <container> bash
+    docker exec -it <container> bash
 
     systemctl start my_logger
 
