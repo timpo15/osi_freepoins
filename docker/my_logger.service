@@ -3,5 +3,5 @@ Description=Python psevdo logger
 
 [Service]
 # Command to execute when the service is started
-ExecStart=/usr/bin/python <path_to_logger>/logger.py
+ExecStart=/usr/bin/python3 /home/logger.py
 
