@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ cat $1 | awk '{print $4}' | sort | uniq -c | sort -r | head -n 10
+

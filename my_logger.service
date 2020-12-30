@@ -1,0 +1,7 @@
+[Unit]
+Description=Python psevdo logger
+
+[Service]
+# Command to execute when the service is started
+ExecStart=/usr/bin/python study/OSI/logger/logger.py
+
